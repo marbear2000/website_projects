@@ -1,0 +1,261 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  background-color: #FFFFFF;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+}
+
+.wrapper {
+  min-height: 100%;
+}
+
+/* Main Navbar */
+.navbar-ad {
+  background: #F5F4F7;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 30px;
+}
+
+/* Logo */
+#logo {
+  height: 60px;
+  width: 60px;
+}
+
+/* navbar logo info */
+.navbar-logo {
+  color: #82acd1;
+  font-size: 16px;
+  font-family: Merriweather, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* navbar right */
+.navbar-right {
+  padding: 10px 0px;
+}
+
+/* navbar item */
+.navbar-items {
+  text-decoration: none;
+  color: #2A628F;
+  font-family: Merriweather, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 0px 15px;
+}
+
+.navbar-items:hover {
+  text-decoration: none;
+}
+
+/* banner */
+
+.banner {
+  background-image: url('../images/banner.jpeg'), linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%);
+  height: 600px;
+  background-size: cover;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner h1 {
+  color: #F5F4F7;
+  font-size: 48px;
+  font-family: Lora, Helvetica, sans-serif;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+.banner p {
+  color: #F5F4F7;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.button-container {
+  margin-top: 60px;
+}
+
+.button {
+  border: 1px solid #2A628F;
+  border-radius: 3px;
+  background-color: #2A628F;
+  text-decoration: none;
+  color: #F5F4F7;
+  font-family: Merriweather, Helvetica, sans-serif;
+  font-size: 16px;
+  padding: 20px 20px;
+}
+
+.button:hover {
+  color: #FA7921;
+  text-decoration: none;
+}
+
+/* footer */
+.footer {
+  background-color: #F5F4F7;
+  position: sticky;
+  bottom: 0;
+  height: 100px;
+  width: 100%;
+  color: #2A628F;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 30px;
+
+}
+
+.footer-links .fab{
+  padding: 0px 10px;
+  color:  #2A628F;
+  font-size: 24px;
+}
+
+.footer-links .fab:hover {
+  color: #FA7921;
+}
+
+.footer-copyright {
+  color: #2A628F;
+  font-size: 16px;
+  padding-right: 15px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* cards container */
+
+.card-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 15px;
+}
+
+.card-index {
+  text-align: center;
+}
+
+.icons {
+  font-size: 64px;
+  padding-bottom: 20px;
+  color: #2A628F;
+  }
+
+.icons p {
+  color: #2A628F;
+  font-family: Merriweather, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.icons:hover {
+  color: #FA7921;
+}
+
+.details {
+  color: #2A628F;
+  font-family: Merriweather, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+/* cards */
+
+.container-services {
+  width: 100%;
+  margin: 0 auto;
+  padding: 50px 15px;
+  background-color: #ffffff;
+
+}
+
+.card-services {
+  border: 0px solid #F5F4F7;
+  margin: 10px 0px;
+}
+
+.card-des1,
+.card-des2,
+.card-des3,
+.card-des4,
+.card-des5,
+.card-des6 {
+  background-image: 0 1px 3px rgba(255,255,255,0.6);
+  background-size: cover;
+  background-position: center;
+  color: #F5F4F7;
+  text-align: center;
+  padding: 25px 0px;
+  position: relative;
+}
+
+.services-des {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.services-des h2 {
+  font-family: Lora, Helvetica, sans-serif;
+  font-size: 16px;
+  text-shadow: text-shadow: 2px 2px 4px #000000;
+}
+
+.services-des p {
+  font-family: Lora, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: lighter;
+  text-shadow: text-shadow: 2px 2px 4px #000000;
+  text-align: left !important;
+  padding-left: 2px;
+}
+
+.card-details p {
+  font-size: 12px;
+  font-family: Merriweather, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 12px;
+}
+
+.card-details {
+  display: none;
+}
+
+/* form style */
+.form-header {
+  font-size: 48px;
+    font-family: Lora, Helvetica, sans-serif;
+    text-align: center;
+    color: #16324F;
+    margin: 25px 0px;
+    padding: 20px 0px;
+}
+
+.form-group {
+  font-family: : Merriweather, Helvetica, sans-serif;
+  color: #13293D;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin-bottom: 40px;
+}
+
+
+
+
